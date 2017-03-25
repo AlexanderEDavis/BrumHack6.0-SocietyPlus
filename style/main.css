@@ -133,3 +133,8 @@ nav ul a{
   float: right;
   margin-right: 20%;
 }
+
+/* everything else... */
+table, th, td{
+  border: 1px solid black;
+}
