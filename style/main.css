@@ -75,6 +75,7 @@ nav ul a{
 /* Header section */
 #header{
   height: 82%;
+  background-image:url('../images/header.jpg');
   text-align: center;
   background-size:cover;;
   background-position: center;
