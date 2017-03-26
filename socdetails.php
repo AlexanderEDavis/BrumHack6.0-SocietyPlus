@@ -107,7 +107,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     <nav>
       <h1>society+ - Birmingham City University</h1>
       <?php
-        include 'navigationvisit.php';
+        include 'navigationadmin.php';
       ?>
     </nav>
 
