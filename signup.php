@@ -1,3 +1,19 @@
+<?php
+
+   if($_SERVER["REQUEST_METHOD"] == "POST") {
+$STID = $_POST['studentID'];
+$Fname = $_POST['firstName'];
+$Lname = $_POST['lastName'];
+$email = $_POST['emailAddress'];
+$Phone = $_POST['phoneNumber'];
+$POO = $_POST['contactPhone'];
+$EOO = $_POST['contacteMail'];
+
+  $sql = "INSERT Member SET (`SocID`, `StudentID`, `FName`, `LName`, `Email`, `Phone`, `PhoneOptOut`, `EmailOptOut`) VALUES (2,'$STID','$Fname','$Lname','$email','$Phone','$POO','$EOO')";
+  $result = mysqli_query($db,$sql);
+}
+?>
+
 <html>
   <head>
     <title>society+ Sign Up - Birmingham City University</title>
@@ -20,7 +36,7 @@
 
     <section id="content" style="float:right; width:70%; height:55%">
     </br>
-      <form>
+      <form method="post">
         First Name: <input type="text" name="firstName"></br></br>
         Last Name: <input type="text" name="lastName"></br></br>
         Student ID: <input type ="text" name="studentID"></br></br>
