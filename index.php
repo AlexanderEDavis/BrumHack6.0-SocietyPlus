@@ -78,9 +78,6 @@
       <p>Content goes here</p>
     </div>
 
-    <footer>
-      <p>asdasd</p>
-    </footer>
-
-   </body>
-</html>
+<?php
+  include 'footer.php'
+?>
