@@ -1,4 +1,6 @@
 <?php
+include("config.php");
+session_start();
 
    if($_SERVER["REQUEST_METHOD"] == "POST") {
 $STID = $_POST['studentID'];
@@ -6,10 +8,8 @@ $Fname = $_POST['firstName'];
 $Lname = $_POST['lastName'];
 $email = $_POST['emailAddress'];
 $Phone = $_POST['phoneNumber'];
-$POO = $_POST['contactPhone'];
-$EOO = $_POST['contacteMail'];
 
-  $sql = "INSERT Member SET (`SocID`, `StudentID`, `FName`, `LName`, `Email`, `Phone`, `PhoneOptOut`, `EmailOptOut`) VALUES (2,'$STID','$Fname','$Lname','$email','$Phone','$POO','$EOO')";
+  $sql = "INSERT INTO Member(`SocID`, `StudentID`, `FName`, `LName`, `Email`, `Phone`) VALUES ('2','$STID','$Fname','$Lname','$email','$Phone')";
   $result = mysqli_query($db,$sql);
 }
 ?>
@@ -34,18 +34,17 @@ $EOO = $_POST['contacteMail'];
       </div>
     </section>
 
-    <section id="content" style="float:right; width:70%; height:55%">
+    <section id="content" style="float:right; width:70%; height:65%">
     </br>
       <form method="post">
-        First Name: <input type="text" name="firstName"></br></br>
+        <p style="font-family: sans-serif;color:white;">First Name: <input type="text" name="firstName"></br></br>
         Last Name: <input type="text" name="lastName"></br></br>
         Student ID: <input type ="text" name="studentID"></br></br>
         Email Address: <input type="text" name="emailAddress"></br></br>
-        Phone Number: <input type="text" name="phoneNumber"></br></br>
+        Phone Number: <input type="text" name="phoneNumber"></p>
         </br>
-        Please Do Not Contact Me By: </br>
-        Phone <input type="checkbox" name="contactPhone"> Email <input type="checkbox" name="contacteMail"></br>
-        </br>
+        <p style="font-family: sans-serif;color:white;">Please Do Not Contact Me By: </br>
+        Phone <input type="checkbox" name="contactPhone"> Email <input type="checkbox" name="contacteMail"></p>
         <input type="submit" value="Submit">
       </form>
     </section>
