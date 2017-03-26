@@ -6,7 +6,7 @@
 
   <body>
     <nav>
-      <h1>society+ - Birmingham City University</h1>
+      <h1>society<sup>+</sup> - Birmingham City University</h1>
       <?php
         include 'navigationadmin.php'
       ?>
@@ -18,11 +18,13 @@
       </div>
     </section>
 
-    <section id="content">
-      <h2>Tools</h2>
-      <a href="about:blank">Edit society details</a>
+    <section id="content" style="float:right; width:70%; height:35%">
+    </br>
+      <div class="adminmenu">
+      <a href="about:blank">Edit Society Details</a>
       <a href="about:blank">Members</a>
       <a href="about:blank">Notifications</a>
+    </div>
     </section>
 
     <?php

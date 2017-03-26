@@ -16,6 +16,21 @@ ul{
   margin: 0px;
 }
 
+.adminmenu a:hover {
+  background-color: #ffffff;
+  color: #00adee
+}
+
+.adminmenu a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.adminmenu{
+  font-family: sans-serif;
+}
+
 .container{
   width: 80%;
   margin: auto;
@@ -75,6 +90,7 @@ nav ul li:hover {
 nav ul a{
   color: white;
   text-decoration: none;
+  padding: 5px;
 }
 
 /* Header section */

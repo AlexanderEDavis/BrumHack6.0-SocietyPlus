@@ -6,7 +6,7 @@
 
   <body>
     <nav>
-      <h1>society+ - Birmingham City University</h1>
+      <h1>society<sup>+</sup> - Birmingham City University</h1>
       <?php
         include 'navigationvisit.php'
       ?>
@@ -14,20 +14,22 @@
 
     <section id="header">
         <div id="header-content">
-          <h1>Sign up to society</h1>
+          <h1>Sign up to Society</h1>
       </div>
     </section>
 
-    <section id="content">
+    <section id="content" style="float:right; width:70%; height:55%">
+    </br>
       <form>
-        First name: <input type="text" name="firstName"><br>
-        Last name: <input type="text" name="lastName"><br>
-        Student ID: <input type ="text" name="studentID"><br>
-        eMail address: <input type="text" name="emailAddress"><br>
-        Phone number: <input type="text" name="phoneNumber"><br>
-        <br>
-        Do you wish to be contacted by <br>
-        Phone? <input type="checkbox" name="contactPhone"> eMail? <input type="checkbox" name="contacteMail"><br>
+        First Name: <input type="text" name="firstName"></br></br>
+        Last Name: <input type="text" name="lastName"></br></br>
+        Student ID: <input type ="text" name="studentID"></br></br>
+        Email Address: <input type="text" name="emailAddress"></br></br>
+        Phone Number: <input type="text" name="phoneNumber"></br></br>
+        </br>
+        Please Do Not Contact Me By: </br>
+        Phone <input type="checkbox" name="contactPhone"> Email <input type="checkbox" name="contacteMail"></br>
+        </br>
         <input type="submit" value="Submit">
       </form>
     </section>

@@ -6,7 +6,7 @@
 
   <body>
     <nav>
-      <h1>society+ - Birmingham City University</h1>
+      <h1>society<sup>+</sup> - Birmingham City University</h1>
       <?php
         include 'navigationadmin.php'
       ?>
