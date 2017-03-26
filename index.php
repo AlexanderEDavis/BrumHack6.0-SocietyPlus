@@ -34,7 +34,7 @@
           <h1 style="color:white; font-size:250%; padding-top:10%;">Join</h1>
           <h4 style="padding-top:5% color:white;">BCU Mental Health Awareness Standard Membership £3.00</h4>
           <div class="button-blue" style="margin-right:25%;margin-top:5%;padding-top:5%;padding-bottom:5%;border-style:solid;border-width:1%;border-radius:2px;">
-            <a href="members.php" style="text-decoration:inherit; margin-left:15%;color:white;font-family:Arial;">Add Membership</a>
+            <a href="signup.php" style="text-decoration:inherit; margin-left:15%;color:white;font-family:Arial;">Add Membership</a>
           </div>
         </div>
 
