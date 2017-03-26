@@ -1,5 +1,6 @@
 <?php
    include("config.php");
+   include("dead.php")
    session_start();
 
    date_default_timezone_set('Europe/London');
@@ -10,8 +11,8 @@
       $myusername = mysqli_real_escape_string($db,$_POST['username']);
       $mypassword = mysqli_real_escape_string($db,$_POST['password']);
 
-      $sql = "SELECT id FROM admin WHERE username = '$myusername' and passcode = '$mypassword'";
-      $result = mysqli_query($db,$sql);
+      $sql = "SELECT StudentID FROM Admin WHERE StudentID = '$myusername' and Password = '$mypassword'";
+      $result = mysqli_query($db,$sql) or $dead;
       $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
       //$active = $row['active'];
 
