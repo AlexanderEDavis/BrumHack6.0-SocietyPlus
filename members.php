@@ -52,9 +52,9 @@
       </table>
     </section>
 
-    <footer>
-      <p>asdasd</p>
-    </footer>
+    <?php
+      include 'footer.php'
+    ?>
 
    </body>
 </html>

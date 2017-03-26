@@ -6,13 +6,10 @@
 
   <body>
     <nav>
-      <h1>SocietyPlus</h1>
-      <ul style="float:right;">
-        <li>Marketing</li>
-        <li>Jobs</li>
-        <li>Map</li>
-        <li>Contact Us</li>
-      </ul>
+      <h1>society+ - Birmingham City University</h1>
+      <?php
+        include 'navigationvisit.php'
+      ?>
     </nav>
 
     <section id="header">
@@ -37,9 +34,9 @@
       <p>Content goes here</p>
     </div>
 
-    <footer>
-      <p>asdasd</p>
-    </footer>
+    <?php
+      include 'footer.php'
+    ?>
 
    </body>
 </html>
