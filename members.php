@@ -1,3 +1,8 @@
+<?php
+   include('session.php');
+   //include('config.php');
+?>
+
 <html>
   <head>
     <title>society+ Members List - Birmingham City University</title>

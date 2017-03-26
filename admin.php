@@ -1,3 +1,8 @@
+<?php
+   include('session.php');
+   //include('config.php');
+?>
+
 <html>
   <head>
     <title>society+ Admin Panel - Birmingham City University</title>
