@@ -1,8 +1,3 @@
-<?php
-   include('session.php');
-   //include('config.php');
-?>
-
 <html>
   <head>
     <title>society+ Sign Up - Birmingham City University</title>
