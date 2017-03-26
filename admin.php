@@ -27,8 +27,8 @@
     </br>
       <div class="adminmenu">
       <a href="about:blank">Edit Society Details</a>
-      <a href="about:blank">Members</a>
-      <a href="about:blank">Notifications</a>
+      <a href="members.php">Members</a>
+      <a href="contact.php">Notifications</a>
     </div>
     </section>
 
