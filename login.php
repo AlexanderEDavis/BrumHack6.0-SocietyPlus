@@ -23,7 +23,7 @@
         // session_register("myusername");
          $_SESSION['login_user'] = $myusername;
 
-         header("location: welcome.php");
+         header("location: admin.php");
       }else {
          $error = "Your Login Name or Password is invalid";
       }
@@ -32,13 +32,13 @@
 
 <html>
   <head>
-    <title>Template</title>
+    <title>Society+ Login</title>
     <link rel="stylesheet" type="text/css" href="./style/main.css"/>
   </head>
 
   <body>
     <nav>
-      <h1>SocietyPlus</h1>
+      <h1>Society+</h1>
       <ul style="float:right;">
         <li>Marketing</li>
         <li>Jobs</li>
@@ -49,18 +49,18 @@
 
     <section id="header">
         <div id="header-content">
-          <img src="./images/BCUMHA_Logo.png" alt="Logo"/>
-          <h1>Lorem ipsum</h1>
-          <h4>Lorem ipsum dolor sit amet</h4>
+          <img src="./images/Logo.png" alt="Logo" style="height:50px;">
+          <h1>Welcome to BCU society+</h1>
+          <h4>We Still Don't Know What We're Doing!</h4>
       </div>
     </section>
 
     <section id="content">
       <div class="wrap" style="width:100%; overflow:auto;">
-        <div class="LeftContent" style="float:left; width:30%; background:blue; height:30%">
+        <div class="LeftContent" style="float:left; width:30%; height:30%">
           <p>asdas</p>
         </div>
-        <div class="RightContent" style="float:right; width:70%; background:red; height:30%">
+        <div class="RightContent" style="float:right; width:70%; height:30%">
           <form id = "login" action = "" method = "post">
              <label>Username  :</label><input type = "text" name = "username" class = "box"/><br /><br />
              <label>Password  :</label><input type = "password" name = "password" class = "box" /><br/><br />
