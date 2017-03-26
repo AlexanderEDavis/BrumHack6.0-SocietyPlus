@@ -38,13 +38,10 @@
 
   <body>
     <nav>
-      <h1>SocietyPlus</h1>
-      <ul style="float:right;">
-        <li>Marketing</li>
-        <li>Jobs</li>
-        <li>Map</li>
-        <li>Contact Us</li>
-      </ul>
+      <h1>society+ - Birmingham City University</h1>
+      <?php
+        include 'navigation.php'
+      ?>
     </nav>
 
     <section id="header">
@@ -55,6 +52,7 @@
 
             </div>
             <div class="RightImage" style="float:right; width:70%; height:100%;">
+              <img src="./images/Logo.png" alt="Logo" style="height:50px;">
               <h1>Society Name</h1>
               <h4>Society description</h4>
             </div>
@@ -81,3 +79,6 @@
 <?php
   include 'footer.php'
 ?>
+
+</body>
+</html>
