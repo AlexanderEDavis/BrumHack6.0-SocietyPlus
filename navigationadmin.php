@@ -1,6 +1,4 @@
 <ul style="float:right;">
-  <li>Marketing</li>
-  <li>Jobs</li>
-  <li>Map</li>
-  <li>Contact Us</li>
+  <li><a href="admin.php">Home</a></li>
+  <li><a href="logout.php">Logout</a></li>
 </ul>
