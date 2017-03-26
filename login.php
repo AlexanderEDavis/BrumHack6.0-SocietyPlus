@@ -32,13 +32,13 @@
 
 <html>
   <head>
-    <title>Society+ Login</title>
+    <title>society+ Login</title>
     <link rel="stylesheet" type="text/css" href="./style/main.css"/>
   </head>
 
   <body>
     <nav>
-      <h1>society+ - Birmingham City University</h1>
+      <h1>society<sup>+</sup> - Birmingham City University</h1>
       <?php
         include 'navigationvisit.php'
       ?>
@@ -47,7 +47,7 @@
     <section id="header">
         <div id="header-content">
           <img src="./images/Logo.png" alt="Logo" style="height:50px;">
-          <h1>Welcome to BCU society+</h1>
+          <h1>Welcome to BCU society<sup>+</sup></h1>
           <h4>We Still Don't Know What We're Doing!</h4>
       </div>
     </section>
@@ -55,9 +55,10 @@
     <section id="content">
       <div class="wrap" style="width:100%; overflow:auto;">
         <div class="LeftContent" style="float:left; width:30%; height:30%">
-          <p>asdas</p>
+
         </div>
-        <div class="RightContent" style="float:right; width:70%; height:30%">
+        <div class="RightContent"  style="float:right; width:70%; height:35%">
+        </br>
           <form id = "login" action = "" method = "post">
              <label>Username  :</label><input type = "text" name = "username" class = "box"/><br /><br />
              <label>Password  :</label><input type = "password" name = "password" class = "box" /><br/><br />
@@ -65,11 +66,6 @@
           </form>
       </div>
     </section>
-
-    <div id="content" align="center">
-      <p>Content goes here</p>
-    </div>
-
     <?php
       include 'footer.php'
     ?>

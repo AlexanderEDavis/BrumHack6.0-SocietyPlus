@@ -19,16 +19,15 @@
 
     <section id="header">
         <div id="header-content">
-          <h1>Society Administration</h1>
+          <h1>Member Notifications</h1>
       </div>
     </section>
 
     <section id="content" style="float:right; width:70%; height:35%">
     </br>
       <div class="adminmenu">
-      <a href="about:blank">Edit Society Details</a>
-      <a href="members.php">Members</a>
-      <a href="contact.php">Notifications</a>
+      <a href="emailmess.php">Email members</a>
+      <a href="smsmess.php">Text members</a>
     </div>
     </section>
 

@@ -1,12 +1,17 @@
+<?php
+   include('session.php');
+   //include('config.php');
+?>
+
 <html>
   <head>
-    <title>Template</title>
+    <title>society+ Members List - Birmingham City University</title>
     <link rel="stylesheet" type="text/css" href="./style/main.css"/>
   </head>
 
   <body>
     <nav>
-      <h1>society+ - Birmingham City University</h1>
+      <h1>society<sup>+</sup> - Birmingham City University</h1>
       <?php
         include 'navigationadmin.php'
       ?>
@@ -18,37 +23,36 @@
       </div>
     </section>
 
-    <section id="content">
-      <table>
+    <section id="content" style="float:right; width:70%; height:60%">
+    </br>
+      <table style="font-family: sans-serif;color:white;">
         <tr>
-          <th>
-            <p>First name</p>
-          </th>
-          <th>
-            <p>Last name</p>
-          </th>
           <th>
             <p>Student ID</p>
           </th>
           <th>
-            <p>Text opt out?</p>
+            <p>First Name</p>
           </th>
           <th>
-            <p>Email opt out</p>
+            <p>Last Name</p>
           </th>
         </tr>
-        <tr>
-          <td>
-          </td>
-          <td>
-          </td>
-          <td>
-          </td>
-          <td>
-          </td>
-          <td>
-          </td>
-        </tr>
+        <?php
+        $sql = "SELECT * FROM Member WHERE `SocID` = 2";
+        $result = $db->query($sql);
+
+        if ($result->num_rows > 0) {
+         // output data of each row
+         while( $row = mysqli_fetch_array($result)) { echo "
+           <tr>";
+           echo "<td>". $row['StudentID'] . "</td>";
+           echo "<td>" . $row['FName'] ."</td>";
+           echo "<td>" . $row['LName'] . "</td>";
+           echo "</tr>"; }
+        } else {
+         echo "0 results";
+        }
+          ?>
       </table>
     </section>
 
