@@ -40,7 +40,7 @@
     <nav>
       <h1>society+ - Birmingham City University</h1>
       <?php
-        include 'navigation.php'
+        include 'navigationvisit.php'
       ?>
     </nav>
 
