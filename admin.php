@@ -26,7 +26,7 @@
     <section id="content" style="float:right; width:70%; height:35%">
     </br>
       <div class="adminmenu">
-      <a href="about:blank">Edit Society Details</a>
+      <a href="socdetails.php">Edit Society Details</a>
       <a href="members.php">Members</a>
       <a href="contact.php">Notifications</a>
     </div>

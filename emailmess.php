@@ -4,17 +4,15 @@
    $sql = "SELECT * FROM Member WHERE `EmailOptOut` = 0";
    $result = $db->query($sql);
 
-   if($_SERVER["REQUEST_METHOD"] == "POST") {
-   $mail_body = $_POST['message'];
+   if($_SERVER["REQUEST_METHOD"] == "GET") {
+   $mail_body = $_GET['message'];
 
    if ($result->num_rows > 0) {
     // output data of each row
     while( $row = mysqli_fetch_array($result)) {
-   $mail_subject=$_POST['mail_subject'];
-   $email_list=$row['Email'];
-   foreach $to {
-   $sent=mail($to,$mail_subject,$mail_body, "From: MikeRotch@anythingbutie.tech");
-   }
+   $mail_subject=$_GET['mail_subject'];
+   $email=$row['Email'];
+   $sent=mail($email,$mail_subject,$mail_body, "From: MikeRotch@anythingbutie.tech");
    if ($sent) {
    echo "<b> Email has been successfully sent </b><br><br>";
    echo "<b> Message : </b><br>$mail_body";
