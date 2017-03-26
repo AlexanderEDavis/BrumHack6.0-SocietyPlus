@@ -30,9 +30,15 @@ section{
 }
 /* FOOTER */
 footer{
-  background: #222222;
-  color:#e2e2e2;
+  background-color: #232323;
+  color: #fff;
+  font-family: sans-serif;
 }
+
+footer a{
+  color: #00adee
+}
+
 /* NAVIGATION */
 nav{
   width: 100%;
@@ -64,8 +70,7 @@ nav ul li{
   -moz-transition: all 0.3s ease;
 }
 nav ul li:hover {
-  background-color: white;
-  color: black;
+  background-color: #00adee;
 }
 nav ul a{
   color: white;
