@@ -32,7 +32,7 @@
 
 <html>
   <head>
-    <title>Society+ Login</title>
+    <title>society+ Login</title>
     <link rel="stylesheet" type="text/css" href="./style/main.css"/>
   </head>
 

@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Template</title>
+    <title>society+ Bulk Email - Birmingham City University</title>
     <link rel="stylesheet" type="text/css" href="./style/main.css"/>
   </head>
 

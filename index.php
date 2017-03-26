@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>Template</title>
+    <title>society+ - Birmingham City University</title>
     <link rel="stylesheet" type="text/css" href="./style/main.css"/>
   </head>
 
@@ -33,7 +33,7 @@
     <section id="content">
       <div class="wrap" style="width:100%; overflow:auto;">
 
-        <div class="LeftContent" style="float:left; width:30%; height:30%; padding-left:5%;border-style:solid; border-width:5px;">
+        <div class="LeftContent" style="float:left; width:30%; height:30%; padding-left:5%;border-style:solid; border-width:5px; border-color: white; background-color: white;">
           <p>asdas</p>
         </div>
         <div class="RightContent" style="float:right; width:70%; height:30%">
