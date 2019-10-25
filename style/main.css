@@ -128,15 +128,18 @@ nav ul a{
   display: flex;
   justify-content: center
 }
+
 .icons-item{
   width: 30%;
   text-align: center;
   padding: 20px 0px;
 }
+
 .icons-item img{
   width: 100px;
   height: 100px;
 }
+
 .icons-item h3{
   padding: 30px 0px;
   font-weight: 300;
